@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AJAX</title>
+
+  <style>
+    #button {
+      display: inline;
+    }
+    .container {
+      margin: 10% auto;
+      width: 100%;
+      text-align: center;
+    }
+    button {
+      margin: 0 2em;
+      padding: 10px 6em;
+      border: solid 2px #06a086;
+      background: #fff;
+      border-radius: 30px;
+    }
+    button:hover {
+      background: #06a086;
+      color: #fff;
+    }
+    p {
+      margin: 3em 0 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div id="button">
+      <button type="xhml" id="btnX">XHR</button>
+      <button type="fetch" id="btnF">Fetch</button>
+      <button type="jquery" id="btnJ">Jquery</button>
+      <button type="axios" id="btnA">Axios</button>
+    </div>
+
+    <p id="content">Hello</p>
+  </div>
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
